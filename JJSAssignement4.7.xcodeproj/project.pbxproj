@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		E08ED9E71AB74C0C00EAEB52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E08ED9E61AB74C0C00EAEB52 /* main.m */; };
 		E08ED9EA1AB74C0C00EAEB52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E08ED9E91AB74C0C00EAEB52 /* AppDelegate.m */; };
-		E08ED9ED1AB74C0C00EAEB52 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E08ED9EC1AB74C0C00EAEB52 /* ViewController.m */; };
 		E08ED9F01AB74C0C00EAEB52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E08ED9EE1AB74C0C00EAEB52 /* Main.storyboard */; };
 		E08ED9F21AB74C0C00EAEB52 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E08ED9F11AB74C0C00EAEB52 /* Images.xcassets */; };
 		E08ED9F51AB74C0C00EAEB52 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E08ED9F31AB74C0C00EAEB52 /* LaunchScreen.xib */; };
 		E08EDA011AB74C0C00EAEB52 /* JJSAssignement4_7Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E08EDA001AB74C0C00EAEB52 /* JJSAssignement4_7Tests.m */; };
+		E08EDA0D1AB74C2B00EAEB52 /* WebDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E08EDA0B1AB74C2B00EAEB52 /* WebDetailViewController.m */; };
+		E08EDA0E1AB74C2B00EAEB52 /* WebDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E08EDA0C1AB74C2B00EAEB52 /* WebDetailViewController.xib */; };
+		E08EDA121AB74C4E00EAEB52 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E08EDA101AB74C4E00EAEB52 /* MainTableViewController.m */; };
+		E08EDA131AB74C4E00EAEB52 /* MainTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E08EDA111AB74C4E00EAEB52 /* MainTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,18 @@
 		E08ED9E61AB74C0C00EAEB52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E08ED9E81AB74C0C00EAEB52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E08ED9E91AB74C0C00EAEB52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E08ED9EB1AB74C0C00EAEB52 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E08ED9EC1AB74C0C00EAEB52 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E08ED9EF1AB74C0C00EAEB52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E08ED9F11AB74C0C00EAEB52 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E08ED9F41AB74C0C00EAEB52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E08ED9FA1AB74C0C00EAEB52 /* JJSAssignement4.7Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJSAssignement4.7Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E08ED9FF1AB74C0C00EAEB52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E08EDA001AB74C0C00EAEB52 /* JJSAssignement4_7Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJSAssignement4_7Tests.m; sourceTree = "<group>"; };
+		E08EDA0A1AB74C2B00EAEB52 /* WebDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebDetailViewController.h; path = ../WebDetailViewController.h; sourceTree = "<group>"; };
+		E08EDA0B1AB74C2B00EAEB52 /* WebDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebDetailViewController.m; path = ../WebDetailViewController.m; sourceTree = "<group>"; };
+		E08EDA0C1AB74C2B00EAEB52 /* WebDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WebDetailViewController.xib; path = ../WebDetailViewController.xib; sourceTree = "<group>"; };
+		E08EDA0F1AB74C4E00EAEB52 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainTableViewController.h; path = ../MainTableViewController.h; sourceTree = "<group>"; };
+		E08EDA101AB74C4E00EAEB52 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainTableViewController.m; path = ../MainTableViewController.m; sourceTree = "<group>"; };
+		E08EDA111AB74C4E00EAEB52 /* MainTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainTableViewController.xib; path = ../MainTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +90,12 @@
 			children = (
 				E08ED9E81AB74C0C00EAEB52 /* AppDelegate.h */,
 				E08ED9E91AB74C0C00EAEB52 /* AppDelegate.m */,
-				E08ED9EB1AB74C0C00EAEB52 /* ViewController.h */,
-				E08ED9EC1AB74C0C00EAEB52 /* ViewController.m */,
+				E08EDA0A1AB74C2B00EAEB52 /* WebDetailViewController.h */,
+				E08EDA0B1AB74C2B00EAEB52 /* WebDetailViewController.m */,
+				E08EDA0C1AB74C2B00EAEB52 /* WebDetailViewController.xib */,
+				E08EDA0F1AB74C4E00EAEB52 /* MainTableViewController.h */,
+				E08EDA101AB74C4E00EAEB52 /* MainTableViewController.m */,
+				E08EDA111AB74C4E00EAEB52 /* MainTableViewController.xib */,
 				E08ED9EE1AB74C0C00EAEB52 /* Main.storyboard */,
 				E08ED9F11AB74C0C00EAEB52 /* Images.xcassets */,
 				E08ED9F31AB74C0C00EAEB52 /* LaunchScreen.xib */,
@@ -199,6 +210,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E08EDA0E1AB74C2B00EAEB52 /* WebDetailViewController.xib in Resources */,
+				E08EDA131AB74C4E00EAEB52 /* MainTableViewController.xib in Resources */,
 				E08ED9F01AB74C0C00EAEB52 /* Main.storyboard in Resources */,
 				E08ED9F51AB74C0C00EAEB52 /* LaunchScreen.xib in Resources */,
 				E08ED9F21AB74C0C00EAEB52 /* Images.xcassets in Resources */,
@@ -219,8 +232,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E08ED9ED1AB74C0C00EAEB52 /* ViewController.m in Sources */,
+				E08EDA0D1AB74C2B00EAEB52 /* WebDetailViewController.m in Sources */,
 				E08ED9EA1AB74C0C00EAEB52 /* AppDelegate.m in Sources */,
+				E08EDA121AB74C4E00EAEB52 /* MainTableViewController.m in Sources */,
 				E08ED9E71AB74C0C00EAEB52 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
